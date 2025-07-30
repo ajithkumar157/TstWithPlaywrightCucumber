@@ -1,0 +1,27 @@
+{
+  "name": "playwrightcucumber",
+  "version": "1.0.0",
+  "description": "Playwright (TS binding) + Cucumber (BDD)",
+  "main": "index.js",
+  "scripts": {
+    "test" : "cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajithkumar157/TstWithPlaywrightCucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ajithkumar157/TstWithPlaywrightCucumber/issues"
+  },
+  "homepage": "https://github.com/ajithkumar157/TstWithPlaywrightCucumber#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
